@@ -155,6 +155,7 @@ h5 {
 
 @import url("https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap");
 
+/* ----- HEADER ------- */
 .nav-container {
   background-color: rgba(83, 135, 195, 0.2);
   position: fixed;
@@ -195,6 +196,8 @@ h5 {
 .logo {
   width: 250px;
 }
+
+/* -----END OF HEADER ------- */
 
 header h1 {
   display: inline-block;
@@ -249,6 +252,8 @@ header h1 {
   background-size: cover;
   background-position: center;
 }
+
+/* ----- MAIN CONTAINER ------- */
 
 .main-container {
   border-top: 2px solid grey;
@@ -306,6 +311,10 @@ header h1 {
   width: 30%;
 }
 
+/* ----- END OF MAIN CONTAINER ------- */
+
+/* ----- FOOTER ------- */
+
 footer h3 {
   font-size: 1.7rem;
 }
@@ -325,7 +334,10 @@ address {
   text-align: center;
   margin-bottom: 7rem;
 }
+/* ----- END OF FOOTER ------- */
 
+/****************************************** */
+/****************************************** */
 /*------------- SERVICES PAGE -------------*/
 
 .services-logo {
@@ -353,11 +365,10 @@ address {
   line-height: 1.2;
 }
 
+/*---MAIN-CONTAINER SERVICES PAGE---*/
 .services-main-container {
-  /* border: 1px solid red; */
   border-bottom: 3px solid #333;
   margin-bottom: 3rem;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -391,6 +402,8 @@ address {
   font-size: 0.8rem;
   color: #333;
 }
+
+/*---END OF MAIN-CONTAINER SERVICES PAGE---*/
 
 .footer-container {
   display: flex;
@@ -431,6 +444,10 @@ address {
   text-align: center;
   padding-bottom: 1.5rem;
 }
+
+/****************************************** */
+/****************************************** */
+/* ----- MEDIA QUERIES -------- */
 
 @media (max-width: 1410px) {
   .logo {
@@ -597,3 +614,5 @@ address {
     margin-bottom: 1rem;
   }
 }
+
+/* ----- END OF MEDIA QUERIES -------- */
