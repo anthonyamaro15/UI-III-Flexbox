@@ -431,3 +431,169 @@ address {
   text-align: center;
   padding-bottom: 1.5rem;
 }
+
+@media (max-width: 1410px) {
+  .logo {
+    width: 200px;
+  }
+  .sub-header h1 {
+    font-size: 4rem;
+  }
+  .img-logo {
+    width: 400px;
+    height: 400px;
+  }
+  .img-container {
+    height: 15vh;
+  }
+}
+
+@media (max-width: 944px) {
+  .services-main-container {
+    flex-wrap: wrap;
+  }
+
+  .shared-classes {
+    width: 100%;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+  }
+
+  .side-one {
+    width: 100%;
+  }
+  .footer-img {
+    width: 100%;
+  }
+  .services-main-container h3 {
+    font-size: 1.5rem;
+  }
+
+  .description p {
+    font-size: 1.2rem;
+  }
+
+  .services-main-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+  }
+
+  .sub-header h1 {
+    font-size: 2rem;
+  }
+  .img-logo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .shared-classes button {
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 4px;
+    padding: 0.4rem 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+    color: #333;
+  }
+
+  .sub-header button {
+    display: block;
+    border: 2px solid grey;
+    font-size: 0.8rem;
+    color: grey;
+    padding: 0.4rem 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  .main-container h3 {
+    font-size: 1.5rem;
+  }
+  .main-container p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+  address {
+    width: 250px;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+  }
+
+  footer h3 {
+    font-size: 1.5rem;
+  }
+
+  .number {
+    display: inline-block;
+    padding: 1.5rem 0;
+  }
+
+  .copyright-text {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .main-container {
+    margin: 3rem 0;
+    padding-bottom: 3rem;
+  }
+  .logo {
+    display: none;
+  }
+  .nav a {
+    padding: 0.4rem 0.6rem;
+    font-size: 1.1rem;
+  }
+
+  .services-logo {
+    height: 15vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-container {
+    background-color: transparent;
+    position: unset;
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    align-items: center;
+    z-index: 10;
+    padding: 0 0.5rem;
+  }
+
+  .footer-img {
+    height: 15vh;
+  }
+
+  .img-logo {
+    display: none;
+  }
+
+  .sub-header {
+    margin-top: -5rem;
+  }
+  .sub-header h1 {
+    font-size: 3rem;
+  }
+
+  .sub-header button {
+    font-size: 1rem;
+    padding: 0.4rem 2.5rem;
+  }
+
+  .img-container {
+    height: 10vh;
+  }
+  .top-sections {
+    flex-wrap: wrap;
+  }
+
+  .top-sections section {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
